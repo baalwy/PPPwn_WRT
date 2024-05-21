@@ -81,7 +81,7 @@ If your router has LED indicators for `wps`, `power`, `wlan`, etc., you can use 
     nano /root/PPPwn_WRT-main/run.sh
     ```
 
-4. Replace `green:wps` with `red:info` in:
+4. Replace `green:wps` with `green:wlan` in:
 
     ```sh
     echo "heartbeat" > /sys/class/leds/green:wps/trigger
